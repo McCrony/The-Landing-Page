@@ -1,16 +1,33 @@
-body{
+
+*{
     margin: 0;
+    padding: 0;
 }
 
-div{
-    height: ;
+.main{
+    margin: 50px;
 }
-.header{
+
+.header {
+display: flex;
 background: #1f2937;
-height: 100px;
+justify-content: space-between;
 }
 
-.section-two{
+.header-logo{
+    color: aliceblue;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one{
+    background-color: #1f2937;
+    height: 100px;
+}
+.section-three{
     background-color: #e5e7eb;
     height: 100px;
 }
