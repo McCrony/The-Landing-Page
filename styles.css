@@ -8,6 +8,7 @@
 display: flex;
 background: #1f2937;
 justify-content: space-between;
+height: 100px;
 }
 
 .header-logo{
@@ -15,14 +16,21 @@ justify-content: space-between;
 }
 
 .header-list{
-    display: flex;
+    dissplay: flex;
     justify-content: space-between;
 }
 
 .section-one{
+    display: flex;
     background-color: #1f2937;
+    justify-content: space-between;
     height: 100px;
 }
+
+.one-right{
+    height: 50px;
+}
+
 .section-three{
     background-color: #e5e7eb;
     height: 100px;
